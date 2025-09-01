@@ -1,0 +1,509 @@
+:root {
+  --wdtSecondaryColorRgb: 61, 61, 61;
+  --bs-danger: #19409a;
+  --bs-danger: #008080;
+  --primary-color:var(--bs-danger);
+  --bs-secondary: #777777;
+  --bs-primary: #15171c;
+  --black :#15171c;
+}
+
+
+/* ------------------------------------------------------------------------------------ */
+
+.caption-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.line {
+  border: 1px solid var(--bs-secondary);
+  display: inline-block;
+  width: 60px;
+  height: 1px;
+}
+
+.dot {
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  border-radius: 100%;
+  background: var(--bs-danger);
+  animation: pulse 2s ease-in-out infinite;
+}
+
+.caption-container .caption {
+  font-size: 2.5rem;
+  color: var(--bs-secondary);
+}
+
+.heading-container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 4rem;
+}
+
+.our-product .projectImage {
+  position: relative;
+  overflow: hidden;
+}
+
+.our-product .projectImage .overlay {
+  position: absolute;
+  color: white;
+  top: 100%;
+  padding: 1rem;
+}
+
+.our-product .projectImage:hover > .overlay,
+.our-product .projectImage:active > .overlay,
+.our-product .projectImage:focus > .overlay {
+  top: 80%;
+  left: 0;
+  background: #4f4f4f9f;
+  width: 100%;
+  height: 70%;
+  z-index: 1;
+  transform: translateY(-70%);
+
+  /* Add a smooth transition */
+  transition: transform 0.5s ease-in-out;
+}
+
+.read-more {
+  display: flex;
+  align-items: center;
+}
+
+.read-more .line {
+  width: 30px;
+  border: 2px solid var(--bs-primary);
+}
+
+.our-product .overlay .read-more .line {
+  border-color: white;
+}
+
+.our-product .read-more a {
+  color: white;
+  outline: none;
+  text-decoration: none;
+}
+
+.read-more:hover > a,
+.read-more:focus > a,
+.read-more:active > a {
+  color: var(--bs-danger);
+  font-weight: 600;
+}
+
+.read-more:hover > .line,
+.read-more:active > .line,
+.read-more:focus > .line {
+  width: 0;
+  height: 0;
+  border: none;
+  transition: width 0.5s ease-in-out;
+}
+
+.our-product .overlay .read-more:hover > .dot,
+.our-product .overlay .read-more:active > .dot,
+.our-product .overlay .read-more:focus > .dot {
+  background: white;
+}
+
+.line2 {
+  width: 0;
+}
+
+.read-more:hover > .line2,
+.read-more:focus > .line2,
+.read-more:active > .line2 {
+  border: 2px solid var(--bs-danger);
+  display: inline-block;
+  width: 30px;
+  height: 1px;
+  transition: width 0.5s ease-in-out;
+}
+
+.our-product .card {
+  position: relative;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+  z-index: 0;
+  border: none;
+}
+
+.our-product .card h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  position: relative;
+  z-index: 2;
+}
+.our-product .card .circle {
+  display: inline-block;
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  top: 0px;
+  left: 0px;
+  border-radius: 0100%;
+  background: var(--bs-danger);
+  z-index: -1;
+}
+
+.our-product .card .card-heading-container h1 {
+  margin-left: 20px;
+}
+
+.read-more a,
+.card .read-more a {
+  color: var(--bs-primary);
+  text-decoration: none;
+  font-weight: bold;
+}
+.our-product .card .read-more:hover > .card .dot,
+.our-product .card .read-more:focus > .card .dot,
+.our-product .card .read-more:active > .card .dot {
+  background: var(--bs-primary);
+}
+
+.our-product .card .read-more:hover > .line,
+.our-product .card .read-more:focus > .line,
+.our-product .card .read-more:active > .line {
+  width: 0;
+  height: 0;
+  border: none;
+  transition: width 0.5s ease-in-out;
+}
+
+.our-product .card .read-more:focus > .line2,
+.our-product .card .read-more:active > .line2,
+.our-product .card .read-more:hover > .line2 {
+  border: 1px solid var(--bs-primary);
+  display: inline-block;
+  width: 60px;
+  height: 1px;
+  transition: width 0.5s ease-in-out;
+}
+
+@media (max-width: 390px) {
+  .our-product .card .card-heading-container h1 {
+    font-size: 2rem;
+  }
+  .our-product .card .circle {
+    display: inline-block;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: -10px;
+    left: 0px;
+    border-radius: 100%;
+    background: var(--bs-danger);
+    z-index: -1;
+  }
+}
+
+/* Feature Card and Icon Styling */
+.feature-card {
+  transition: transform 0.3s ease-in-out;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.feature-card .icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.feature-card .icon {
+  font-size: 5rem; /* Adjust icon size to match original */
+  transition: transform 0.3s ease-in-out;
+  color: var(--bs-danger);
+}
+
+/* Apply the animation on hover */
+.feature-card:hover .icon-container {
+  animation: pulse 1s ease-in-out infinite;
+}
+.footer-list li {
+  line-height: 40px;
+}
+
+.newsletter-form input {
+  width: 50%;
+}
+
+.group {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 2.5rem;
+  width: 100%;
+  position: relative;
+}
+
+.group input {
+  height: 0;
+  width: 100%;
+  max-width: 15rem;
+  padding: 0 0.125rem;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid black;
+  background: transparent;
+  color: black;
+  transition: all 0.3s ease-in-out;
+}
+
+.group:hover input,
+.group:focus-within input,
+.group:active input {
+  height: 2rem;
+}
+
+
+.bg-circle {
+  position: absolute;
+  left: 0.5rem; /* adjust for button position */
+  z-index: 0;
+  width: 1rem;
+  height: 1rem;
+  background: #dd4242;
+  border-radius: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.group:hover .bg-circle,
+.group:focus-within .bg-circle,
+.group:active .bg-circle {
+  top: 0;
+  width: 10rem;
+  height: 2.5rem;
+}
+
+.group:hover button,
+.group:focus-within button {
+  color: white;
+}
+
+
+/* ------------------------------------Form----------------------------------- */
+
+.form-container {
+  text-align: center;
+  max-width: 900px;
+  margin: auto;
+  padding: 40px 20px;
+}
+.caption-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+.line {
+  width: 40px;
+  height: 1 px;
+  background: #888;
+}
+.dot {
+  width: 8px;
+  height: 8px;
+  background: red;
+  border-radius: 50%;
+}
+.caption {
+  font-size: 18px;
+  color: #666;
+}
+.heading-wrapper {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.contact-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.contact-form input,
+.contact-form textarea {
+  border: none;
+  border-bottom: 1px solid #aaa;
+  padding: 8px 0;
+  font-size: 16px;
+  outline: none;
+  width: 100%;
+}
+.contact-form textarea {
+  grid-column: span 2;
+  resize: none;
+  height: 80px;
+}
+.full-width {
+  grid-column: span 2;
+}
+.contact-form .submit-button {
+  grid-column: span 2;
+  padding: 10px 20px;
+  font-size: 20px;
+  border: 1px solid #000;
+  background: transparent;
+  width: 130px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.contact-form .submit-button .dot {
+  background: var(--bs-danger);
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+/* -------------------------------Branches------------------------------------ */
+
+
+.contact-banner{
+  background-image: url("../images/contact-banner.webp");
+  background-repeat: no-repeat;
+  background-position:center ;
+  background-size: cover;
+  height: 60vh;
+
+}
+.contact-banner .col{
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-banner h2{
+ text-align: center;
+ 
+}
+
+.contact-banner p{
+ width: 70%;
+ text-align:justify;
+}
+
+
+.contact-section{
+
+}
+
+/* General body styling for context, you can skip this if you have your own */
+
+
+/* Card Container */
+.card {
+  width:300px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  /* Flex-basis allows the card to grow/shrink within its container */
+  flex: 1 1 300px; /* flex-grow, flex-shrink, flex-basis */
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-sizing: border-box; /* Ensures padding doesn't affect total width */
+}
+
+/* Hover effect for a subtle lift */
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* Card Heading */
+.card h2 {
+  font-size: 28px;
+  color: #333;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+/* Paragraph Text */
+.card p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+/* Contact Info Section */
+.card-contact {
+  margin-bottom: 25px;
+}
+
+.card-contact p {
+  margin: 10px 0;
+}
+
+.card-contact a {
+  text-decoration: none;
+  color: var(--bs-danger);
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  transition: color 0.3s ease;
+}
+
+.card-contact a:hover {
+  color: #b02a37; /* A slightly darker red for consistency */
+}
+
+/* Icon Styling */
+.card-contact a span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  color: #fff;
+  background-color: var(--bs-danger);
+  border-radius: 50%;
+}
+
+/* Flips the phone icon to face left */
+.card-contact a .fa-phone {
+  transform: scaleX(-1); 
+}
+
+/* Button Styling for the link */
+.btn-touch {
+  display: inline-block;
+  background-color: var(--bs-danger);
+  color: #fff;
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 50px;
+  font-weight: bold;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+  /* Updated box-shadow to match the danger color theme */
+  box-shadow: 0 4px 10px rgba(220, 53, 69, 0.3);
+}
+
+.btn-touch:hover {
+  background-color: #b02a37; /* A slightly darker red for consistency */
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(220, 53, 69, 0.4);
+}
+/* Fixing typo in your HTML */
+/* You had `<i class="fa fa-envolop"></i>`. It should be `envelope`. */
+/* To use this, you'll need a link to Font Awesome, like this in your HTML's <head>:
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+*/
