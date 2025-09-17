@@ -102,7 +102,7 @@ const swiper1 = new Swiper(".mySwiper", {
 
 window.addEventListener("load", () => {
     const form = document.querySelector(".form-modal");
-    const btn = document.querySelectorAll(".custom-btn");
+    const btn = document.querySelectorAll(".form-btn");
     const body = document.querySelector("body");
     const closeBtn = document.getElementById("formModalClose");
 

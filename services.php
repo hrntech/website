@@ -18,202 +18,6 @@
         <?php include 'header.php' ?>
         
          
-  <!--  section class="">
-            <div class="container-fluid banner-container">
-                <h1>Services</h1>
-                <div class="breadcrumb">
-                    <a href="index.php">Home</a>&nbsp;&nbsp; /&nbsp;&nbsp; <span>Services</span>
-                </div>
-            </div>
-        </section>
-
-        <div class="innovation">
-            <div class="innovative">
-                <div class="svg">
-                    <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="100"
-                        height="93"
-                        viewBox="0 0 100 93">
-                        <g data-name="Group 742" transform="translate(-1079.085 -243)">
-                            <line
-                                data-name="Line 51"
-                                x2="32"
-                                transform="translate(1092.085 249)"
-                                fill="none"
-                                stroke="currentcolor"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                stroke-width="2"></line>
-                            <line
-                                data-name="Line 52"
-                                x2="31"
-                                transform="translate(1136.085 249)"
-                                fill="none"
-                                stroke="currentcolor"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                stroke-width="2"></line>
-                            <circle
-                                data-name="Ellipse 53"
-                                cx="5"
-                                cy="5"
-                                r="5"
-                                transform="translate(1082.085 244)"
-                                fill="none"
-                                stroke="currentcolor"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                stroke-width="2"></circle>
-                            <ellipse
-                                data-name="Ellipse 54"
-                                cx="5.5"
-                                cy="5"
-                                rx="5.5"
-                                ry="5"
-                                transform="translate(1167.085 244)"
-                                fill="none"
-                                stroke="currentcolor"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                stroke-width="2"></ellipse>
-                            <g data-name="Group 740" transform="translate(1080.085 287.75)">
-                                <path
-                                    data-name="Path 725"
-                                    d="M1085.66,344h-5.575v10.5h10.5V344h-4.925"
-                                    transform="translate(-1080.085 -344)"
-                                    fill="none"
-                                    stroke="currentcolor"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="2"></path>
-                                <path
-                                    data-name="Path 726"
-                                    d="M1285.01,344h-4.925v10.5h10.5V344h-5.575"
-                                    transform="translate(-1192.585 -344)"
-                                    fill="none"
-                                    stroke="currentcolor"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="2"></path>
-                            </g>
-                            <g data-name="Group 741" transform="translate(1085.66 244)">
-                                <path
-                                    data-name="Path 727"
-                                    d="M1131,256.8a43.738,43.738,0,0,0-38.175,38.15"
-                                    transform="translate(-1092.827 -251.2)"
-                                    fill="none"
-                                    stroke="currentcolor"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="2"></path>
-                                <path
-                                    data-name="Path 728"
-                                    d="M1242.26,294.95a43.738,43.738,0,0,0-38.175-38.15"
-                                    transform="translate(-1155.41 -251.2)"
-                                    fill="none"
-                                    stroke="currentcolor"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="2"></path>
-                                <path
-                                    data-name="Path 729"
-                                    d="M1180.085,256.8v4.9h10.5v-4.9"
-                                    transform="translate(-1141.91 -251.2)"
-                                    fill="none"
-                                    stroke="currentcolor"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="2"></path>
-                                <path
-                                    data-name="Path 730"
-                                    d="M1180.085,249.6V244h10.5v5.6"
-                                    transform="translate(-1141.91 -244)"
-                                    fill="none"
-                                    stroke="currentcolor"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    stroke-width="2"></path>
-                            </g>
-                            <line
-                                data-name="Line 53"
-                                x2="10"
-                                transform="translate(1124.085 267)"
-                                fill="none"
-                                stroke="currentcolor"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                stroke-width="2"></line>
-                            <line
-                                data-name="Line 54"
-                                y2="22"
-                                transform="translate(1129.085 267)"
-                                fill="none"
-                                stroke="currentcolor"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                stroke-width="2"></line>
-                            <path
-                                data-name="Path 731"
-                                d="M1185.335,348a5.25,5.25,0,1,1-5.25,5.25"
-                                transform="translate(-56.25 -58.5)"
-                                fill="none"
-                                stroke="currentcolor"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                stroke-width="2"></path>
-                            <path
-                                data-name="Path 732"
-                                d="M1209.335,341.5l7-17.5s-12.25-17.5-12.25-28"
-                                transform="translate(-69.75 -29.25)"
-                                fill="none"
-                                stroke="currentcolor"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                stroke-width="2"></path>
-                            <path
-                                data-name="Path 733"
-                                d="M1159.085,341.5l-7-17.5s12.25-17.5,12.25-28"
-                                transform="translate(-40.5 -29.25)"
-                                fill="none"
-                                stroke="currentcolor"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                stroke-width="2"></path>
-                            <path
-                                data-name="Path 734"
-                                d="M1169.585,412.75h17.5V404h-35v8.75h5.25V425"
-                                transform="translate(-40.5 -90)"
-                                fill="none"
-                                stroke="currentcolor"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                stroke-width="2"></path>
-                            <line
-                                data-name="Line 55"
-                                y2="12"
-                                transform="translate(1143.085 323)"
-                                fill="none"
-                                stroke="currentcolor"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                stroke-width="2"></line>
-                        </g>
-                    </svg>
-                </div>
-                <div class="big-text">
-                    <h1>Our Best Innovative & <br> Creative Work</h1>
-                </div>
-                <div class="small-text">
-                    <p>
-                        We offer a comprehensive suite of digital marketing services designed <br>
-                        to elevate your business online. Our expert team delivers customized <br>
-                        solutions with a focus on results, ROI, and innovation.
-                    </p>
-                </div>
-            </div>
-        </div> 
--->
 
         <section class="section odd">
             <div class="container-fluid">
@@ -410,24 +214,57 @@
             </div>
         </section>
 
-        <div class="service-modals odd">
+        <div class="service-modals web">
             <div class="container">
                 <div class="row">
                     <div class="col modal" id="web" data-aos="zoom-in" data-aos-duration="700">
-                        <button id="modal-close" class="cross-btn">✖</button>
+                        <button id="modal-close" class="cross-btn modal-close">✖</button>
                         <div class="modal-content">
-                            <div class="project">
-                                <a class="iframe-overlay" href="https://agrevolution.in/">Visit Site</a>
-                                <iframe src="http://127.0.0.1:5500/" loading="lazy"></iframe>
-                            </div>
-                            <div class="project">
-                                <a class="iframe-overlay" href="https://agrevolution.in/">Visit Site</a>
-                                <iframe src="https://gaagalight.wpengine.com/" loading="lazy"></iframe>
-                            </div>
-                            <div class="project">
-                                <a class="iframe-overlay" href="https://agrevolution.in/">Visit Site</a>
-                                <iframe src="https://www.anthropic.com/" loading="lazy"></iframe>
-                            </div>
+                            <div class="swiper mySwiper-web">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="project">
+                                            <a class="iframe-overlay" href="https://agrevolution.in/">Visit Site</a>
+                                            <iframe src="http://127.0.0.1:5500/" loading="lazy" ></iframe>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="project">
+                                            <a class="iframe-overlay" href="https://agrevolution.in/">Visit Site</a>
+                                            <iframe src="https://gaagalight.wpengine.com/" loading="lazy"></iframe>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="project">
+                                            <a class="iframe-overlay" href="https://agrevolution.in/">Visit Site</a>
+                                            <iframe src="https://www.anthropic.com/" loading="lazy"></iframe>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="project">
+                                            <a class="iframe-overlay" href="https://agrevolution.in/">Visit Site</a>
+                                            <iframe src="http://127.0.0.1:5500/" loading="lazy" ></iframe>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="project">
+                                            <a class="iframe-overlay" href="https://agrevolution.in/">Visit Site</a>
+                                            <iframe src="http://127.0.0.1:5500/" loading="lazy" ></iframe>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="project">
+                                            <a class="iframe-overlay" href="https://agrevolution.in/">Visit Site</a>
+                                            <iframe src="http://127.0.0.1:5500/" loading="lazy" ></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-pagination"></div>
+
+                                
+                                </div>
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-button-next"></div>
                             <!-- Add more projects -->
                         </div>
                     </div>
@@ -436,23 +273,14 @@
         </div>
 
 
-        <div class="service-modals">
+        <div class="service-modals App">
             <div class="container">
                 <div class="row">
                     <div class="col modal" id="app" data-aos="zoom-in" data-aos-duration="700">
-                        <button id="modal-close" class="cross-btn">✖</button>
+                        <button id="" class="cross-btn modal-close">✖</button>
                         <div class="modal-content">
                             <div class="project">
-                                <a class="iframe-overlay" href="https://agrevolution.in/">Visit Site</a>
-                                <iframe src="https://agrevolution.in/" loading="lazy"></iframe>
-                            </div>
-                            <div class="project">
-                                <a class="iframe-overlay" href="https://agrevolution.in/">Visit Site</a>
-                                <iframe src="https://gaagalight.wpengine.com/" loading="lazy"></iframe>
-                            </div>
-                            <div class="project">
-                                <a class="iframe-overlay" href="https://agrevolution.in/">Visit Site</a>
-                                <iframe src="https://www.anthropic.com/" loading="lazy"></iframe>
+                                
                             </div>
                             <!-- Add more projects -->
                         </div>

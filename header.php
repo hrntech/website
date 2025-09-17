@@ -28,7 +28,7 @@
                 </ul>
 
             </div>
-            <button class=" custom-btn fw-semibold px-4 py-2 d-none d-md-inline" id="openBtn">
+            <button class=" custom-btn fw-semibold px-4 py-2 d-none d-md-inline form-btn" >
                 <span class="dot me-2"></span>Let's start
             </button>
         </div>
@@ -55,6 +55,9 @@
                 <a class="nav-link text-dark fs-5 fw-medium p-3" href="contact.php">Contact Us</a>
             </li>
         </ul>
+        <button class=" custom-btn fw-semibold px-4 py-2 form-btn" >
+                <span class="dot me-2"></span>Let's start
+        </button>
 
         <div class="mt-auto pt-4 border-top border-2">
             <div class="d-flex justify-content-center space-x-6">

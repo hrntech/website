@@ -42,9 +42,11 @@
                                         with your business. With a skilled team and global reach, we transform complex
                                         challenges into effective outcomes
                                     </p>
-                                    <button class="custom-btn fw-semibold px-4 py-2 " id="aboutopenBtn" >
+                                    <div>
+                                    <button class="cta-btn fw-semibold px-4 py-2 form-btn" id="aboutopenBtn" >
                                         <span class="dot me-2"></span>Let's start
                                     </button>
+                                    </div>
                                 </div>
                             </div>
 
@@ -100,45 +102,26 @@
             </div>
         </section>
 
-        <section class="counter " data-aos="fade-up" data-aos-duration="700">
-            <div class="container ">
-
-                <div class="row d-flex justify-content-center">
-                    <div class="col-md-6 d-flex justify-content-center">
-                        <div class="row count d-flex justify-content-center">
-                            <div class="col-6 col-lg-6 d-flex align-items-center" data-aos="fade-up"
-                                data-aos-duration="700">
-                                <h1 class="d-flex flex-column text-center"><span
-                                        class="hollow-text  d-flex flex-column">10+</span><span
-                                        class="text text-wrap">Years Industry Expertise</span></h1>
-                            </div>
-                            <div class="col-6 col-lg-6 d-flex align-items-center " data-aos="fade-down"
-                                data-aos-duration="700">
-                                <h1 class="d-flex flex-column text-center"><span
-                                        class="hollow-text  d-flex flex-column">200+</span><span
-                                        class="text text-wrap">Successful <br> Projects</span></h1>
-                            </div>
-
-                        </div>
+        <section class="counter even" data-aos="fade-up" data-aos-duration="700">
+            <div class="container-fluid ">
+                <div class="row d-flex justify-content-center count">
+                    <div class="col-6 col-md-6 col-lg-3 d-flex align-items-center justify-content-center" data-aos="fade-up"
+                        data-aos-duration="700">
+                        <h1 class="d-flex flex-column text-center"><span class="hollow-text  d-flex flex-column">10+</span><span class="text text-wrap">Years  Industry Expertise</span></h1>
                     </div>
-                    <div class="col-md-6 d-flex justify-content-center">
-                        <div class="row count d-flex justify-content-center">
-                            <div class="col-6 col-lg-6 d-flex align-items-center " data-aos="fade-up"
-                                data-aos-duration="700">
-                                <h1 class="d-flex flex-column text-center"><span
-                                        class="hollow-text  d-flex flex-column">50+</span><span
-                                        class="text text-wrap">Skilled <br> Professionals</span></h1>
-                            </div>
-                            <div class="col-6 col-lg-6 d-flex align-items-center " data-aos="fade-down"
-                                data-aos-duration="700">
-                                <h1 class="d-flex flex-column text-center"><span
-                                        class="hollow-text  d-flex flex-column">100%</span><span
-                                        class="text text-wrap">Client <br> Satisfaction</span></h1>
-                            </div>
-                        </div>
+                    <div class="col-6 col-md-6 col-lg-3 d-flex align-items-center justify-content-center " data-aos="fade-down"
+                        data-aos-duration="700">
+                        <h1 class="d-flex flex-column text-center"><span class="hollow-text  d-flex flex-column">200+</span><span class="text text-wrap">Successful <br> Projects</span></h1>
+                    </div>
+                    <div class="col-6 col-md-6 col-lg-3 d-flex align-items-center justify-content-center " data-aos="fade-up"
+                            data-aos-duration="700">
+                            <h1 class="d-flex flex-column text-center"><span class="hollow-text  d-flex flex-column">50+</span><span class="text text-wrap">Skilled <br> Professionals</span></h1>
+                    </div>
+                    <div class="col-6 col-md-6 col-lg-3 d-flex align-items-center justify-content-center " data-aos="fade-down"
+                        data-aos-duration="700">
+                        <h1 class="d-flex flex-column text-center"><span class="hollow-text  d-flex flex-column">100%</span><span class="text text-wrap">Client <br> Satisfaction</span></h1>
                     </div>
                 </div>
-
 
             </div>
         </section>

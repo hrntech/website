@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Lora:wght@400;700&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Raleway:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -24,8 +24,8 @@
             <div class="container-fluid">
                 <div class="row flex-column-reverse flex-lg-row align-items-center relative">
 
-                    <div class="col-lg-6 d-flex justify-content-center" data-aos="flip-right" data-aos-duration="700">
-                        <div class="d-flex flex-row">
+                    <div class="col-lg-6 d-flex" data-aos="flip-right" data-aos-duration="700">
+                        <div class="d-flex flex-row ">
                             <div class="d-flex flex-column align-items-center sm-justify-content-center px-4 px-md-5"
                                 data-aos="fade-right" data-aos-duration="1000">
                                 <div class="d-flex flex-column space-y-12">
@@ -34,7 +34,7 @@
                                     <a href="https://www.instagram.com/hrntechsolutions" class="social-icon"><i class="fab fa-instagram"></i></a>
                                     <a href="https://www.facebook.com/hrntechsolutions" class="social-icon"><i class="fab fa-facebook-f"></i></a>
                                 </div>
-                                <a class="d-flex flex-column align-items-center d-none d-md-flex mt-5 text-dark text-decoration-none"
+                                <a class="d-flex flex-column align-items-center d-none d-md-flex  text-dark text-decoration-none"
                                     href="#features">
                                     <span class="scroll-dot mb-2"></span>
                                     <span class="scroll-line"></span>
@@ -42,7 +42,7 @@
                                 </a>
                             </div>
 
-                            <div class="">
+                            <div class="d-flex flex-column align-items-start justify-content-center">
                                 <div class="d-flex align-items-center mb-4">
                                     <div class="line me-2"></div>
                                     <div class="dot-wave me-2 position-relative">
@@ -68,19 +68,19 @@
 
                                 <div
                                     class="d-flex flex-column flex-md-row align-items-start align-items-md-center justify-content-between">
-                                    <a href="#services"
-                                        class="d-flex align-items-center text-decoration-none text-dark fw-semibold mb-4 mb-md-0">
+                                    <!-- <a href="javascript:void(0)"
+                                        class="d-flex align-items-center text-decoration-none text-dark fw-semibold mb-4 mb-md-0 form-btn">
                                         <div class="cta-line me-2"></div>
                                         <div class="cta-dot me-2"></div>
                                         <span class="hover-danger">Get Started</span>
-                                    </a>
-                                    <a href="#intro-video"
-                                        class="d-flex align-items-center text-decoration-none text-dark fw-semibold">
+                                    </a> -->
+                                    <a href="javascript:void(0)"
+                                        class="d-flex align-items-center text-decoration-none text-dark fw-semibold form-btn">
                                         <div class="play-button position-relative me-3">
                                             <div class="shado-wave"></div>
-                                            <i class="fas fa-play play-icon text-white position-relative"></i>
+                                            <i class="fas fa-code play-icon text-white position-relative"></i>
                                         </div>
-                                        <span class="hover-danger">Watch Overview</span>
+                                        <span class="hover-danger">Start Building</span>
                                     </a>
                                 </div>
                             </div>
@@ -105,7 +105,7 @@
                     <div class="col-12 col-md-4">
                         <div class="feature-card d-flex align-items-center text-start flex-wrap justify-content-center">
                             <div class="icon-container d-flex justify-content-center align-items-center ">
-                                <i class="fas fa-users icon"></i>
+                                <i class="fas fa-users-gear icon"></i>
                             </div>
                             <div class=" text-center mt-3 mt-sm-0">
                                 <h3 class="h4 fw-bold text-dark mb-1">Advanced Tools</h3>
@@ -245,7 +245,6 @@
                                     <span class="dot me-2"></span>
                                     <a href="#">Read More</a>
                                     <span class="line2 ms-2"></span>
-
                                 </div>
                             </div>
                         </div>
@@ -284,10 +283,10 @@
                                         alt=""></span> We Are Always Here To Help You Grow Your
                                 <span class="play">
                                     Busines
-                                    <div class="play-button ms-2">
-                                        <div class="shado-wave"></div>
-                                        <i class="fas fa-play play-icon text-black "></i>
-                                    </div>
+                                        <!-- <div class="play-button ms-2">
+                                            <div class="shado-wave"></div>
+                                            <i class="fas fa-play play-icon text-black "></i>
+                                        </div> -->
                                 </span>
 
 
@@ -296,32 +295,22 @@
 
                     </div>
                 </div>
-
-                <div class="row d-flex justify-content-center">
-                    <div class="col-md-6 d-flex justify-content-center">
-                        <div class="row count d-flex justify-content-center">
-                            <div class="col-6 col-lg-6 d-flex align-items-center" data-aos="fade-up"
-                                data-aos-duration="700">
-                                <h1 class="d-flex flex-column text-center"><span class="hollow-text  d-flex flex-column">10+</span><span class="text text-wrap">Years  Industry Expertise</span></h1>
-                            </div>
-                            <div class="col-6 col-lg-6 d-flex align-items-center " data-aos="fade-down"
-                                data-aos-duration="700">
-                                <h1 class="d-flex flex-column text-center"><span class="hollow-text  d-flex flex-column">200+</span><span class="text text-wrap">Successful <br> Projects</span></h1>
-                            </div>
-                            
-                        </div>
+                <div class="row d-flex justify-content-center count">
+                    <div class="col-6 col-lg-3 d-flex align-items-center justify-content-center" data-aos="fade-up"
+                        data-aos-duration="700">
+                        <h1 class="d-flex flex-column text-center"><span class="hollow-text  d-flex flex-column">10+</span><span class="text text-wrap">Years  Industry Expertise</span></h1>
                     </div>
-                    <div class="col-md-6 d-flex justify-content-center">
-                        <div class="row count d-flex justify-content-center">
-                            <div class="col-6 col-lg-6 d-flex align-items-center " data-aos="fade-up"
-                                    data-aos-duration="700">
-                                    <h1 class="d-flex flex-column text-center"><span class="hollow-text  d-flex flex-column">50+</span><span class="text text-wrap">Skilled <br> Professionals</span></h1>
-                            </div>
-                            <div class="col-6 col-lg-6 d-flex align-items-center " data-aos="fade-down"
-                                data-aos-duration="700">
-                                <h1 class="d-flex flex-column text-center"><span class="hollow-text  d-flex flex-column">100%</span><span class="text text-wrap">Client <br> Satisfaction</span></h1>
-                            </div>
-                        </div>
+                    <div class="col-6 col-lg-3 d-flex align-items-center justify-content-center " data-aos="fade-down"
+                        data-aos-duration="700">
+                        <h1 class="d-flex flex-column text-center"><span class="hollow-text  d-flex flex-column">200+</span><span class="text text-wrap">Successful <br> Projects</span></h1>
+                    </div>
+                    <div class="col-6 col-lg-3 d-flex align-items-center justify-content-center " data-aos="fade-up"
+                            data-aos-duration="700">
+                            <h1 class="d-flex flex-column text-center"><span class="hollow-text  d-flex flex-column">50+</span><span class="text text-wrap">Skilled <br> Professionals</span></h1>
+                    </div>
+                    <div class="col-6 col-lg-3 d-flex align-items-center justify-content-center " data-aos="fade-down"
+                        data-aos-duration="700">
+                        <h1 class="d-flex flex-column text-center"><span class="hollow-text  d-flex flex-column">100%</span><span class="text text-wrap">Client <br> Satisfaction</span></h1>
                     </div>
                 </div>
 
@@ -367,7 +356,7 @@
                         <p>Our expert developers build scalable, feature-rich mobile apps for iOS and Android. Whether it’s a business app, e-commerce solution, or custom platform, we bring your ideas to users’ fingertips.</p>
                         <a href="contact.php">
                             <div class="image-overlay">
-                                <div class="image" style="background-image:url('assets/images/service-1.jpg')"></div>
+                                <div class="image" style="background-image:url('assets/images/service-2.jpg')"></div>
                                 <div class="read-more">
                                     <span class="line me-2"></span>
                                     <span class="dot me-2"></span>
@@ -383,7 +372,7 @@
                         <p>Boost your online visibility and drive targeted traffic with our result-driven SEO, social media marketing, PPC, and content strategies. We help brands achieve measurable growth in the digital landscape.</p>
                         <a href="contact.php">
                             <div class="image-overlay">
-                                <div class="image" style="background-image:url('assets/images/service-1.jpg')"></div>
+                                <div class="image" style="background-image:url('assets/images/service-3.jpg')"></div>
                                 <div class="read-more">
                                     <span class="line me-2"></span>
                                     <span class="dot me-2"></span>
@@ -399,7 +388,7 @@
                         <p>From brand logos to complete visual identity kits, our creative design team delivers eye-catching, memorable graphics that communicate your message and strengthen your brand presence.</p>
                         <a href="contact.php">
                             <div class="image-overlay">
-                                <div class="image" style="background-image:url('assets/images/service-1.jpg')"></div>
+                                <div class="image" style="background-image:url('assets/images/service-4.jpg')"></div>
                                 <div class="read-more">
                                     <span class="line me-2"></span>
                                     <span class="dot me-2"></span>
@@ -575,7 +564,16 @@
                         <div class="swiper-wrapper">
                             <!-- Feedback Card 1 -->
                             <div class="swiper-slide col-md-6">
-                                <div class="feedback-card p-4 bg-light position-relative">
+                                <iframe 
+                                    src="https://www.google.com/maps/embed?pb=!4vXXXXXXXXXX!6m8!3dX.Y!4dZ.W" 
+                                    width="600" 
+                                    height="450" 
+                                    style="border:0;" 
+                                    allowfullscreen 
+                                    loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade">
+                                </iframe>
+                                <!-- <div class="feedback-card p-4 bg-light position-relative">
                                     <i class="fa-solid fa-quote-left text-danger fs-3 position-absolute top-0 start-0 m-3"></i>
                                     <div class="stars mb-3 text-end">
                                         <i class="fa-solid fa-star text-dark"></i>
@@ -593,11 +591,104 @@
                                             <strong class="text-danger">Dharmendra Prajapati</strong> – <span class="text-muted">CEO, Bright Future Inc.</span>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
+                            </div>
+
+                            <div class="swiper-slide col-md-6">
+                                <iframe 
+                                    src="https://share.google/TtxZRcQfouGf3JfTC" 
+                                    width="600" 
+                                    height="450" 
+                                    style="border:0;" 
+                                    allowfullscreen 
+                                    loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade">
+                                </iframe>
+                                <!-- <div class="feedback-card p-4 bg-light position-relative">
+                                    <i class="fa-solid fa-quote-left text-danger fs-3 position-absolute top-0 start-0 m-3"></i>
+                                    <div class="stars mb-3 text-end">
+                                        <i class="fa-solid fa-star text-dark"></i>
+                                        <i class="fa-solid fa-star text-dark"></i>
+                                        <i class="fa-solid fa-star text-dark"></i>
+                                        <i class="fa-solid fa-star text-dark"></i>
+                                        <i class="fa-solid fa-star text-dark"></i>
+                                    </div>
+                                    <p class="mb-4">
+                                        HRN Tech Solution transformed our online presence. Their innovative approach and timely delivery exceeded our expectations. We’ve seen a 40% increase in engagement since launch!
+                                    </p>
+                                    <div class="d-flex align-items-center">
+                                        <img src="assets/images/DharmendraPic.jpg" alt="Sarah Johnson" class="rounded-circle me-2" width="50" height="50" />
+                                        <div>
+                                            <strong class="text-danger">Dharmendra Prajapati</strong> – <span class="text-muted">CEO, Bright Future Inc.</span>
+                                        </div>
+                                    </div>
+                                </div> -->
+                            </div>
+
+                            <div class="swiper-slide col-md-6">
+                                <iframe 
+                                    src="https://share.google/sCBZgyCGHJ3ankDzL" 
+                                    width="600" 
+                                    height="450" 
+                                    style="border:0;" 
+                                    allowfullscreen 
+                                    loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade">
+                                </iframe>
+                                <!-- <div class="feedback-card p-4 bg-light position-relative">
+                                    <i class="fa-solid fa-quote-left text-danger fs-3 position-absolute top-0 start-0 m-3"></i>
+                                    <div class="stars mb-3 text-end">
+                                        <i class="fa-solid fa-star text-dark"></i>
+                                        <i class="fa-solid fa-star text-dark"></i>
+                                        <i class="fa-solid fa-star text-dark"></i>
+                                        <i class="fa-solid fa-star text-dark"></i>
+                                        <i class="fa-solid fa-star text-dark"></i>
+                                    </div>
+                                    <p class="mb-4">
+                                        HRN Tech Solution transformed our online presence. Their innovative approach and timely delivery exceeded our expectations. We’ve seen a 40% increase in engagement since launch!
+                                    </p>
+                                    <div class="d-flex align-items-center">
+                                        <img src="assets/images/DharmendraPic.jpg" alt="Sarah Johnson" class="rounded-circle me-2" width="50" height="50" />
+                                        <div>
+                                            <strong class="text-danger">Dharmendra Prajapati</strong> – <span class="text-muted">CEO, Bright Future Inc.</span>
+                                        </div>
+                                    </div>
+                                </div> -->
+                            </div>
+
+                            <div class="swiper-slide col-md-6">
+                                <iframe 
+                                    src="https://share.google/N2MvfmyXIgnWJP6Zk" 
+                                    width="600" 
+                                    height="450" 
+                                    style="border:0;" 
+                                    allowfullscreen 
+                                    loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade">
+                                </iframe>
+                                <!-- <div class="feedback-card p-4 bg-light position-relative">
+                                    <i class="fa-solid fa-quote-left text-danger fs-3 position-absolute top-0 start-0 m-3"></i>
+                                    <div class="stars mb-3 text-end">
+                                        <i class="fa-solid fa-star text-dark"></i>
+                                        <i class="fa-solid fa-star text-dark"></i>
+                                        <i class="fa-solid fa-star text-dark"></i>
+                                        <i class="fa-solid fa-star text-dark"></i>
+                                        <i class="fa-solid fa-star text-dark"></i>
+                                    </div>
+                                    <p class="mb-4">
+                                        HRN Tech Solution transformed our online presence. Their innovative approach and timely delivery exceeded our expectations. We’ve seen a 40% increase in engagement since launch!
+                                    </p>
+                                    <div class="d-flex align-items-center">
+                                        <img src="assets/images/DharmendraPic.jpg" alt="Sarah Johnson" class="rounded-circle me-2" width="50" height="50" />
+                                        <div>
+                                            <strong class="text-danger">Dharmendra Prajapati</strong> – <span class="text-muted">CEO, Bright Future Inc.</span>
+                                        </div>
+                                    </div>
+                                </div> -->
                             </div>
 
                             <!-- Feedback Card 2 -->
-                            <div class="swiper-slide col-md-6">
+                            <!-- <div class="swiper-slide col-md-6">
                                 <div class="feedback-card p-4 bg-light position-relative">
                                     <i class="fa-solid fa-quote-left text-danger fs-3 position-absolute top-0 start-0 m-3"></i>
                                     <div class="stars mb-3 text-end">
@@ -617,7 +708,7 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
 
                             <!-- Add more client feedback slides as needed -->
                         </div>

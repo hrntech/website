@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Raleway", Arial, sans-serif;;
 }
 
 .body-cover{
@@ -84,7 +84,7 @@ footer{
 }
 
 .text-wrapper {
-  font-size: 1rem,1.2rem,1.5rem;
+  font-size: clamp(1rem,1.2rem,1.5rem);
   line-height: 28px;
   color: #777777;
 }
@@ -528,7 +528,7 @@ h1 .animated-text {
 
 
 .caption-container .caption {
-  font-size: clamp(.5rem,1rem,1.5rem);
+  font-size: clamp(.5rem,1.25rem,1.5rem);
   /* font-size: 1rem; */
   color: var(--bs-secondary);
 }
@@ -1212,6 +1212,10 @@ h1 .animated-text {
 
 /* ``````````````````````````````````````````````````````````````About US section start here``````````````````````````````````````````````` */
 
+.cta-btn{
+  border:none;
+}
+
 .management-section .dot {
   display: inline-block;
   width: 6px;
@@ -1667,8 +1671,10 @@ h1 .animated-text {
 }
 
 @media(max-width:376){
-  .banner-heading{
-    /* font-size: .5rem; */
-  }
+ 
 }
+
+
+
+
 
