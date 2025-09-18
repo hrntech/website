@@ -272,29 +272,7 @@
 
         <section class="counter even" data-aos="fade-up" data-aos-duration="700">
             <div class="container-fluid ">
-                <div class="row py-5">
-                    <div class="col">
-                        <div class="counter-Heading-container " data-aos="fade-down-right" data-aos-duration="700">
-                            <h1 class="heading-wrapper text-center">
-                                It's Time To Take Your Digital Marketing
-                                <span class="image"><img src="assets/images/content-image-small-size-4.png"
-                                        alt=""></span>
-                                To The Next Level <span class="images"><img src="assets/images/group-image.png"
-                                        alt=""></span> We Are Always Here To Help You Grow Your
-                                <span class="play">
-                                    Busines
-                                        <!-- <div class="play-button ms-2">
-                                            <div class="shado-wave"></div>
-                                            <i class="fas fa-play play-icon text-black "></i>
-                                        </div> -->
-                                </span>
-
-
-                            </h1>
-                        </div>
-
-                    </div>
-                </div>
+                
                 <div class="row d-flex justify-content-center count">
                     <div class="col-6 col-lg-3 d-flex align-items-center justify-content-center" data-aos="fade-up"
                         data-aos-duration="700">
@@ -410,50 +388,45 @@
                         <div class="swiper-wrapper">
                             
                             <div class="swiper-slide col-auto">
-                                <img src="assets/images/logo1.png" alt="Logo 1" class="img-fluid" />
+                                <img src="assets/images/company_logo/1.png" alt="Logo 1" class="img-fluid" />
                             </div>
                             <div class="swiper-slide col-auto">
-                                <img src="assets/images/logo2.png" alt="Logo 2" class="img-fluid" />
+                                <img src="assets/images/company_logo/2.png" alt="Logo 2" class="img-fluid" />
                             </div>
                             <div class="swiper-slide col-auto">
-                                <img src="assets/images/logo3.png" alt="Logo 3" class="img-fluid" />
+                                <img src="assets/images/company_logo/3.png" alt="Logo 3" class="img-fluid" />
                             </div>
                             <div class="swiper-slide col-auto">
-                                <img src="assets/images/logo1.png" alt="Logo 1" class="img-fluid" />
+                                <img src="assets/images/company_logo/4.png" alt="Logo 1" class="img-fluid" />
                             </div>
                             <div class="swiper-slide col-auto">
-                                <img src="assets/images/logo2.png" alt="Logo 2" class="img-fluid" />
+                                <img src="assets/images/company_logo/5.png" alt="Logo 2" class="img-fluid" />
                             </div>
                             <div class="swiper-slide col-auto">
-                                <img src="assets/images/logo3.png" alt="Logo 3" class="img-fluid" />
+                                <img src="assets/images/company_logo/6.png" alt="Logo 3" class="img-fluid" />
                             </div>
                             <div class="swiper-slide col-auto">
-                                <img src="assets/images/logo1.png" alt="Logo 1" class="img-fluid" />
+                                <img src="assets/images/company_logo/7.png" alt="Logo 1" class="img-fluid" />
                             </div>
                             <div class="swiper-slide col-auto">
-                                <img src="assets/images/logo2.png" alt="Logo 2" class="img-fluid" />
+                                <img src="assets/images/company_logo/8.png" alt="Logo 2" class="img-fluid" />
                             </div>
                             <div class="swiper-slide col-auto">
-                                <img src="assets/images/logo3.png" alt="Logo 3" class="img-fluid" />
+                                <img src="assets/images/company_logo/10.png" alt="Logo 3" class="img-fluid" />
                             </div>
                             <div class="swiper-slide col-auto">
-                                <img src="assets/images/logo1.png" alt="Logo 1" class="img-fluid" />
+                                <img src="assets/images/company_logo/11.png" alt="Logo 1" class="img-fluid" />
                             </div>
                             <div class="swiper-slide col-auto">
-                                <img src="assets/images/logo2.png" alt="Logo 2" class="img-fluid" />
+                                <img src="assets/images/company_logo/12.png" alt="Logo 2" class="img-fluid" />
                             </div>
                             <div class="swiper-slide col-auto">
-                                <img src="assets/images/logo3.png" alt="Logo 3" class="img-fluid" />
+                                <img src="assets/images/company_logo/13.png" alt="Logo 3" class="img-fluid" />
                             </div>
                             <div class="swiper-slide col-auto">
-                                <img src="assets/images/logo1.png" alt="Logo 1" class="img-fluid" />
+                                <img src="assets/images/company_logo/14.png" alt="Logo 1" class="img-fluid" />
                             </div>
-                            <div class="swiper-slide col-auto">
-                                <img src="assets/images/logo2.png" alt="Logo 2" class="img-fluid" />
-                            </div>
-                            <div class="swiper-slide col-auto">
-                                <img src="assets/images/logo3.png" alt="Logo 3" class="img-fluid" />
-                            </div>
+                           
 
                         </div>
                     </div>
@@ -479,7 +452,7 @@
                                         <div class="qna" data-target="q4">
                                             <div class="question">
                                                 <span><img src="assets/images/right-arrow.png" alt=""></span>
-                                                <h3>What services does HRN Tech Solutions provide?</h3>
+                                                <h3 class="hrntech">What services does HRN Tech Solutions provide?</h3>
                                             </div>
                                             <div id="q4" class="answer">
                                                 <p>We offer a complete suite of digital solutions, including website design & development, mobile app development, digital marketing, branding, and graphic design — all tailored to meet your business goals.</p>

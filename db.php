@@ -1,9 +1,15 @@
 <?php 
 
-    $user = "root";
-    $password = "";
+    // $user = "root";
+    // $password = "";
+    // $host = "localhost";
+    // $database = "hrn_tech";
+
+
+    $password = "ramesh@1234";
+    $user = "hrntechs_ramesh";
     $host = "localhost";
-    $database = "hrn_tech";
+    $database = "hrntechs_hrn";
 
     $conn = new mySqli($host, $user, $password, $database);
 
