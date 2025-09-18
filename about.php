@@ -193,9 +193,8 @@
         </section>
 
         <!-- Our Management Section -->
-        <section class="management-section">
+        <!-- <section class="management-section">
             <div class="container">
-                <!-- Title -->
                 <div class="row">
                     <div class="col caption-container">
                         <span class="line"></span>
@@ -211,26 +210,21 @@
                     </div>
                 </div>
 
-                <!-- Row -->
                 <div class="row g-4">
-                    <!-- Card 1 -->
                     <div class="col-12 col-sm-6 col-md-3">
                         <div class="management-card ">
                             <img src="assets/images/Dharmendra1.jpg" class="img-fluid" alt="Urbano Nero">
                             <div class="info mt-3 text-center">
                                 <h6 class="mb-0">Dharmendra Prajapati</h6>
-                                <!-- <small class="text-danger">Web Developer</small> -->
                             </div>
                         </div>
                     </div>
 
-                    <!-- Card 2 -->
                     <div class="col-12 col-sm-6 col-md-3">
                         <div class="management-card">
                             <img src="assets/images/Akash Tiwari.jpg" class="img-fluid" alt="Irene Renata">
                             <div class="info mt-3 text-center">
                                 <h6 class="mb-0">Akash Tiwari</h6>
-                                <!-- <small class="text-danger">Web Developer</small> -->
                             </div>
                         </div>
                     </div>
@@ -242,18 +236,15 @@
                             <img src="assets/images/Himanshu1.jpg" class="img-fluid" alt="Urbano Nero">
                             <div class="info mt-3 text-center">
                                 <h6 class="mb-0">Himanshu Singh</h6>
-                                <!-- <small class="text-danger">Web Developer</small> -->
                             </div>
                         </div>
                     </div>
 
-                    <!-- Card 2 -->
                     <div class="col-12 col-sm-6 col-md-3">
                         <div class="management-card">
                             <img src="assets/images/Dharmendra1.jpg" class="img-fluid" alt="Irene Renata">
                             <div class="info mt-3 text-center">
                                 <h6 class="mb-0">Dharmendra Prajapati</h6>
-                                <!-- <small class="text-danger">Chairman</small> -->
                             </div>
                         </div>
                     </div>
@@ -262,18 +253,15 @@
                             <img src="assets/images/Sweeti1.jpg" class="img-fluid" alt="Urbano Nero">
                             <div class="info mt-3 text-center">
                                 <h6 class="mb-0">Sweeti Shrivastav</h6>
-                                <!-- <small class="text-danger">Tele-Caller</small> -->
                             </div>
                         </div>
                     </div>
 
-                    <!-- Card 2 -->
                     <div class="col-12 col-sm-6 col-md-3">
                         <div class="management-card">
                             <img src="assets/images/Shubh.jpg" class="img-fluid" alt="Irene Renata">
                             <div class="info mt-3 text-center">
                                 <h6 class="mb-0">Shubh Ojha</h6>
-                                <!-- <small class="text-danger">Tele-Caller</small> -->
                             </div>
                         </div>
                     </div>
@@ -282,24 +270,21 @@
                             <img src="assets/images/Akash Tiwari.jpg" class="img-fluid" alt="Urbano Nero">
                             <div class="info mt-3 text-center">
                                 <h6 class="mb-0">Akash Tiwari</h6>
-                                <!-- <small class="text-danger">Director</small> -->
                             </div>
                         </div>
                     </div>
 
-                    <!-- Card 2 -->
                     <div class="col-12 col-sm-6 col-md-3">
                         <div class="management-card">
                             <img src="assets/images/Shubh.jpg" class="img-fluid" alt="Irene Renata">
                             <div class="info mt-3 text-center">
                                 <h6 class="mb-0">Shubh Ojha</h6>
-                                <!-- <small class="text-danger">Chairman</small> -->
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!-- <section class="client-logo" data-aos="fade-up" data-aos-duration="700">
             <div class="container-fluid">
                 <div class="row">
