@@ -38,7 +38,7 @@
                                     href="#features">
                                     <span class="scroll-dot mb-2"></span>
                                     <span class="scroll-line"></span>
-                                    <span class="scroll-text">SCROLL hello</span>
+                                    <span class="scroll-text">SCROLL</span>
                                 </a>
                             </div>
 
