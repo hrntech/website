@@ -25,7 +25,10 @@
                     <div class="col-md-6" data-aos="fade-right" data-aos-duration="700">
                         <div class="service" data-target="web">
                             <div class="image-container image-fluid">
-                                <img src="assets/images/card/card-1.jpg" alt="Creative Web Design">
+                                <!-- <img src="assets/images/card/card-1.jpg" alt="Creative Web Design"> -->
+                                <video autoplay muted loop>
+                                    <source src="/assets/images/videos/web.mp4" type="video/mp4">
+                                </video>
                                 <div class="overlay">
                                     <div href="#" class="read-more">
                                         <span class="line me-2"></span>
@@ -36,14 +39,16 @@
                                 </div>
                             </div>
                             <h2 class="B">Web Development</h2>
-                            <p>Create a stunning, responsive website tailored to your brand and audience. Our team builds user-friendly, conversion-focused websites with seamless navigation and performance.</p>
                         </div>
                     </div>
 
                     <div class="col-md-6 mt-md-5">
                         <div class="service" data-target="app">
                             <div class="image-container image-fluid" data-aos="fade-left" data-aos-duration="900">
-                                <img src="assets/images/card/card-2.jpg" alt="Mobile App Design">
+                                <!-- <img src="assets/images/card/card-2.jpg" alt="Mobile App Design"> -->
+                                <video autoplay muted loop>
+                                    <source src="/assets/images/videos/app.mp4" type="video/mp4">
+                                </video>
                                 <div class="overlay">
                                     <div class="read-more">
                                         <span class="line me-2"></span>
@@ -54,14 +59,16 @@
                                 </div>
                             </div>
                             <h2 class="B">Mobile App Development</h2>
-                            <p>Bring your ideas to life with innovative mobile apps for iOS and Android—designed for performance, usability, and business outcomes.</p>
                         </div>
                     </div>
 
                     <div class="col-md-6 ">
                         <div class="service">
                             <div class="image-container image-fluid" data-aos="fade-right" data-aos-duration="700">
-                                <img src="assets/images/card/card-3.jpg" alt="Digital Marketing">
+                                <!-- <img src="assets/images/card/card-3.jpg" alt="Digital Marketing"> -->
+                                <video autoplay muted loop>
+                                    <source src="/assets/images/videos/digital.mp4" type="video/mp4">
+                                </video>
                                 <div class="overlay">
                                     <div class="read-more">
                                         <span class="line me-2"></span>
@@ -72,14 +79,16 @@
                                 </div>
                             </div>
                             <h2 class="B">Digital Marketing</h2>
-                            <p>Enhance your digital footprint—leveraging SEO, PPC, social media, content marketing, and more to boost traffic, engagement, and conversions.</p>
                         </div>
                     </div>
 
                     <div class="col-md-6 mt-md-5">
                         <div class="service">
                             <div class="image-container image-fluid" data-aos="fade-left" data-aos-duration="900">
-                                <img src="assets/images/card/card-4.jpg" alt="Social Media Marketing">
+                                <!-- <img src="assets/images/card/card-4.jpg" alt="Social Media Marketing"> -->
+                                <video autoplay muted loop>
+                                    <source src="/assets/images/videos/performance.mp4" type="video/mp4">
+                                </video>
                                 <div class="overlay">
                                     <div class="read-more">
                                         <span class="line me-2"></span>
@@ -90,14 +99,16 @@
                                 </div>
                             </div>
                             <h2 class="B">Performance Marketing</h2>
-                            <p>We don’t just run ads—we engineer growth. Performance Marketing is all about measurable results: every click, impression, and conversion is tracked to ensure your budget works smarter, not harder.</p>
                         </div>
                     </div>
 
                     <div class="col-md-6 ">
                         <div class="service">
                             <div class="image-container image-fluid" data-aos="fade-right" data-aos-duration="700">
-                                <img src="assets/images/card/card-3.jpg" alt="Graphics Designing">
+                                <!-- <img src="assets/images/card/card-3.jpg" alt="Graphics Designing"> -->
+                                <video autoplay muted loop>
+                                    <source src="/assets/images/videos/graphics.mp4" type="video/mp4">
+                                </video>
                                 <div class="overlay">
                                     <div class="read-more">
                                         <span class="line me-2"></span>
@@ -108,14 +119,16 @@
                                 </div>
                             </div>
                             <h2 class="B">Graphics Designing</h2>
-                            <p>Make your brand pop with visually striking designs—from logos and banners to brochures and digital assets, we craft them to captivate.</p>
                         </div>
                     </div>
 
                     <div class="col-md-6 mt-md-5">
                         <div class="service">
                             <div class="image-container image-fluid" data-aos="fade-left" data-aos-duration="900">
-                                <img src="assets/images/card/card-4.jpg" alt="SEO Optimization">
+                                <!-- <img src="assets/images/card/card-4.jpg" alt="SEO Optimization"> -->
+                                <video autoplay muted loop>
+                                    <source src="/assets/images/videos/software.mp4" type="video/mp4">
+                                </video>
                                 <div class="overlay">
                                     <div class="read-more">
                                         <span class="line me-2"></span>
@@ -126,7 +139,6 @@
                                 </div>
                             </div>
                             <h2 class="B">Software Development</h2>
-                            <p>At HRN Tech Solution, we design and develop scalable, secure, and innovative software solutions that empower businesses to achieve their goals.</p>
                         </div>
                     </div>
                 </div>
@@ -208,7 +220,10 @@
                         </div>
                     </div>
                     <div class="col-lg-6 faq-banner">
-                        <img src="assets/images/faq-banner.png" alt="FAQ - HRN Tech Solutions">
+                    <video autoplay muted loop>
+                        <source src="/assets/images/videos/faq.mp4" type="video/mp4">
+                    </video>
+                        <!-- <img src="assets/images/faq-banner.png" alt="FAQ - HRN Tech Solutions"> -->
                     </div>
                 </div>
             </div>
@@ -279,8 +294,7 @@
                     <div class="col modal" id="app" data-aos="zoom-in" data-aos-duration="700">
                         <button id="" class="cross-btn modal-close">✖</button>
                         <div class="modal-content">
-                            <div class="project">
-                                
+                            <div class="project">                               
                             </div>
                             <!-- Add more projects -->
                         </div>

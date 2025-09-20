@@ -94,6 +94,9 @@ footer{
 /* Custom CSS for the header component */
 
 /* Sticky Header with Backdrop Filter */
+header{
+  background:  linear-gradient(135deg, #355ea1ff, #053655ff);
+}
 .backdrop-blur-3 {
   -webkit-backdrop-filter: blur(3px);
   backdrop-filter: blur(3px);
@@ -102,8 +105,8 @@ footer{
     255,
     255,
     0.7
-  ); /* Matches the original's bg-white/30 */
-}
+  ); /* Matches the original's bg-white/30*/
+} 
 
 .nav-link{
   font-size: clamp(1rem,1.3rem,1.5rem);
@@ -1688,3 +1691,17 @@ h1 .animated-text {
 
 
 
+.cursor {
+  font-weight: 100;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+.typing-effect{
+  color: var(--bs-danger);
+}

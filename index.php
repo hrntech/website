@@ -80,7 +80,7 @@
                                             <div class="shado-wave"></div>
                                             <i class="fas fa-code play-icon text-white position-relative"></i>
                                         </div>
-                                        <span class="hover-danger">Start Building</span>
+                                        <span class="hover-danger">Start Building <span class="typing-effect"></span><span class="cursor">|</span></span>
                                     </a>
                                 </div>
                             </div>

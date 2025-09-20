@@ -1,5 +1,5 @@
 <header class="shadow-lg sticky-top z-3">
-    <nav class="navbar navbar-expand-md bg-white-50 backdrop-blur-3 py-3">
+    <nav class="navbar navbar-expand-md  backdrop-blur-3 py-3">
         <div class="container-fluid px-4 px-md-6 px-lg-8">
             <a class="navbar-brand py-2 me-0" href="#">
                 <img src="assets/images/logo/logo.png" alt="HRN" class="img-fluid" style="width: 60%;">

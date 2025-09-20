@@ -141,3 +141,40 @@ window.addEventListener("load",()=>{
   updateDisplay(range.value);
 })
 
+document.addEventListener("DOMContentLoaded",()=>{
+  
+      const textElement = document.querySelector('.typing-effect');
+      const textArray = ["Software.", "Website.", "Apps.","Ecommerce Store.","Brand Logo.","Social Media Presence."];
+      let textArrayIndex = 0;
+      let charIndex = 0;
+
+      function type() {
+        if (charIndex < textArray[textArrayIndex].length) {
+          textElement.textContent += textArray[textArrayIndex].charAt(charIndex);
+          charIndex++;
+          setTimeout(type, 100); // Typing speed in milliseconds
+        } else {
+          setTimeout(erase, 1000); // Wait 1 second before starting erase
+        }
+      }
+
+      function erase() {
+        if (charIndex > 0) {
+          textElement.textContent = textArray[textArrayIndex].substring(0, charIndex - 1);
+          charIndex--;
+          setTimeout(erase, 50); // Erasing speed in milliseconds
+        } else {
+          textArrayIndex++;
+          if (textArrayIndex >= textArray.length) {
+            textArrayIndex = 0;
+          }
+          setTimeout(type, 500); // Wait 0.5 seconds before typing next phrase
+        }
+      }
+
+        if (textArray.length) {
+          setTimeout(type, 1000);
+        }
+      
+
+})

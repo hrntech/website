@@ -39,32 +39,7 @@ window.addEventListener("load", () => {
       }
     }
   
-    // Auto-scroll function
-    // function startAutoScroll() {
-    //   stopAutoScroll(); // clear if running
-    //   autoScrollInterval = setInterval(() => {
-    //     if (!scrollPaused) {
-    //       modalContent.scrollTop += 1;
-    //       if (modalContent.scrollTop + modalContent.clientHeight >= modalContent.scrollHeight) {
-    //         modalContent.scrollTop = 0; // loop to top
-    //       }
-    //     }
-    //   },30); // scroll speed
-    // }
-  
-    // function stopAutoScroll() {
-    //   clearInterval(autoScrollInterval);
-    // }
-  
-    // // Pause on hover
-    // console.log(modalContent.children)
-    // Array.from(modalContent.children).forEach(element=>element.addEventListener("mouseenter", () => {
-    //   scrollPaused = true;
-    // }))
-    // Array.from(modalContent.children).forEach(element=>element.addEventListener("mouseleave", () => {
-    //     scrollPaused = false;
-    //     // setTimeout(() => (scrollPaused = false), 7000); // pause for 10s
-    //   }))
+
 
     var swiper = new Swiper(".mySwiper-web", {
       loop: true, // infinite loop
