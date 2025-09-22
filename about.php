@@ -23,36 +23,19 @@
     <main class="wrapper">
         <?php include 'header.php'?>
 
-        <section class="banner"
-            style="background-image:url('assets/images/about-banner.jpg')">
-            <div class="container-fluid m-0 p-0 h-100">
-                <div class="row m-0 p-0 h-100">
-                    <div class="col d-flex justify-content-start align-items-end h-100 pb-5"
-                        style="padding-bottom:3rem">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-10">
+        <section class="banner">
+            <div class="container-fluid m-0 p-0 h-100 about-banner-content">
                                     <h1 class="banner-heading mb-3" style="color:white;" data-aos="fade-up"
                                         data-aos-delay="700">
                                         Building your business through Mordern Technology
                                     </h1>
                                     <p class="banner-text mb-3" style="color:white;" data-aos="fade-up"
                                         data-aos-delay="900">
-                                        At HRN Tech Solutions, we provide complete software solutions designed to grow
+                                        We provide complete software solutions designed to grow
                                         with your business. With a skilled team and global reach, we transform complex
                                         challenges into effective outcomes
                                     </p>
-                                    <div>
-                                    <button class="cta-btn fw-semibold px-4 py-2 form-btn" id="aboutopenBtn" >
-                                        <span class="dot me-2"></span>Let's start
-                                    </button>
-                                    </div>
-                                </div>
-                            </div>
 
-                        </div>
-                    </div>
-                </div>
             </div>
         </section>
 

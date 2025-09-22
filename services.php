@@ -30,15 +30,9 @@
                                     <source src="/assets/images/videos/web.mp4" type="video/mp4">
                                 </video>
                                 <div class="overlay">
-                                    <div href="#" class="read-more">
-                                        <span class="line me-2"></span>
-                                        <span class="dot me-2"></span>
-                                        <a href="#">Know more</a>
-                                        <span class="line2 ms-2"></span>
-                                    </div>
+                                    <h2 class="B">Web Development</h2>
                                 </div>
                             </div>
-                            <h2 class="B">Web Development</h2>
                         </div>
                     </div>
 
@@ -50,15 +44,10 @@
                                     <source src="/assets/images/videos/app.mp4" type="video/mp4">
                                 </video>
                                 <div class="overlay">
-                                    <div class="read-more">
-                                        <span class="line me-2"></span>
-                                        <span class="dot me-2"></span>
-                                        <a href="#">Know more</a>
-                                        <span class="line2 ms-2"></span>
-                                    </div>
+                                    <h2 class="B">Mobile App Development</h2>
+                                    
                                 </div>
                             </div>
-                            <h2 class="B">Mobile App Development</h2>
                         </div>
                     </div>
 
@@ -70,15 +59,10 @@
                                     <source src="/assets/images/videos/digital.mp4" type="video/mp4">
                                 </video>
                                 <div class="overlay">
-                                    <div class="read-more">
-                                        <span class="line me-2"></span>
-                                        <span class="dot me-2"></span>
-                                        <a href="#">Know more</a>
-                                        <span class="line2 ms-2"></span>
-                                    </div>
+                                    <h2 class="B">Digital Marketing</h2>
+                                    
                                 </div>
                             </div>
-                            <h2 class="B">Digital Marketing</h2>
                         </div>
                     </div>
 
@@ -90,15 +74,10 @@
                                     <source src="/assets/images/videos/performance.mp4" type="video/mp4">
                                 </video>
                                 <div class="overlay">
-                                    <div class="read-more">
-                                        <span class="line me-2"></span>
-                                        <span class="dot me-2"></span>
-                                        <a href="#">Know more</a>
-                                        <span class="line2 ms-2"></span>
-                                    </div>
+                                    <h2 class="B">Performance Marketing</h2>
+                                    
                                 </div>
                             </div>
-                            <h2 class="B">Performance Marketing</h2>
                         </div>
                     </div>
 
@@ -110,35 +89,25 @@
                                     <source src="/assets/images/videos/graphics.mp4" type="video/mp4">
                                 </video>
                                 <div class="overlay">
-                                    <div class="read-more">
-                                        <span class="line me-2"></span>
-                                        <span class="dot me-2"></span>
-                                        <a href="#">Know more</a>
-                                        <span class="line2 ms-2"></span>
-                                    </div>
+                                    <h2 class="B">Graphics Designing</h2>
+                                    
                                 </div>
                             </div>
-                            <h2 class="B">Graphics Designing</h2>
                         </div>
                     </div>
 
                     <div class="col-md-6 mt-md-5">
-                        <div class="service">
+                        <div class="service" data-target="software">
                             <div class="image-container image-fluid" data-aos="fade-left" data-aos-duration="900">
                                 <!-- <img src="assets/images/card/card-4.jpg" alt="SEO Optimization"> -->
                                 <video autoplay muted loop>
                                     <source src="/assets/images/videos/software.mp4" type="video/mp4">
                                 </video>
                                 <div class="overlay">
-                                    <div class="read-more">
-                                        <span class="line me-2"></span>
-                                        <span class="dot me-2"></span>
-                                        <a href="#">Know more</a>
-                                        <span class="line2 ms-2"></span>
-                                    </div>
+                                    <h2 class="B">Software Development</h2>
+                                    
                                 </div>
                             </div>
-                            <h2 class="B">Software Development</h2>
                         </div>
                     </div>
                 </div>
@@ -303,6 +272,63 @@
             </div>
         </div>
 
+        <div class="service-modals web">
+            <div class="container">
+                <div class="row">
+                    <div class="col modal" id="software" data-aos="zoom-in" data-aos-duration="700">
+                        <button id="modal-close" class="cross-btn modal-close">✖</button>
+                        <div class="modal-content">
+                            <div class="swiper mySwiper-web">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="project">
+                                            <a class="iframe-overlay" href="https://agrevolution.in/">Visit Site</a>
+                                            <iframe src="http://127.0.0.1:5500/" loading="lazy" ></iframe>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="project">
+                                            <a class="iframe-overlay" href="https://agrevolution.in/">Visit Site</a>
+                                            <iframe src="https://gaagalight.wpengine.com/" loading="lazy"></iframe>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="project">
+                                            <a class="iframe-overlay" href="https://agrevolution.in/">Visit Site</a>
+                                            <iframe src="https://www.anthropic.com/" loading="lazy"></iframe>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="project">
+                                            <a class="iframe-overlay" href="https://agrevolution.in/">Visit Site</a>
+                                            <iframe src="http://127.0.0.1:5500/" loading="lazy" ></iframe>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="project">
+                                            <a class="iframe-overlay" href="https://agrevolution.in/">Visit Site</a>
+                                            <iframe src="http://127.0.0.1:5500/" loading="lazy" ></iframe>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="project">
+                                            <a class="iframe-overlay" href="https://agrevolution.in/">Visit Site</a>
+                                            <iframe src="http://127.0.0.1:5500/" loading="lazy" ></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-pagination"></div>
+
+                                
+                                </div>
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-button-next"></div>
+                            <!-- Add more projects -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
         <section class="post even" data-aos="fade-up" data-aos-duration="700">
